@@ -101,7 +101,7 @@ for i in range(iterations):
   w2 = w2-lr*dw2
   w1 = w1-lr*dw1
   
-#we plot losses to see how our network is doing
+
 plt.plot(losses)
 plt.xlabel("EPOCHS")
 plt.ylabel("Loss value")
